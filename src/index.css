@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the base styles for .root, html, and body */
+.root,
+html,
+body {
+  background-color: #1a202c; /* bg-gray-900 */
+  text-align: center; /* text-center */
+  vertical-align: middle; /* align-middle */
+}
+
+/* Additional styles for dark mode */
+.dark .root,
+.dark html,
+.dark body {
+  color: #ffffff; /* text-white */
+}
